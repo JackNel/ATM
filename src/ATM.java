@@ -16,7 +16,6 @@ public class ATM {
             System.out.println("Welcome to the ATM.");
             System.out.println("What is your name?");
 
-
             Scanner scanner = new Scanner(System.in);
             String name = scanner.nextLine();
             if (name.length() == 0) {
@@ -56,8 +55,11 @@ public class ATM {
                 String amount = scanner.nextLine();
                 int amountNum = Integer.valueOf(amount);
                 if (amountNum > balance) {
-                    throw new Exception("ATM currently only has $" + balance);
+                    System.out.println("ATM currently only has $" + balance);
+                    continue;
                 } else if (amountNum <= balance) {
+                    double newBal = (balance - amountNum);
+                    accounts.put(name, newBal);
                     System.out.println("Your balance is now $" + (balance - amountNum));
                     System.out.println("Please take your money.");
                 }
