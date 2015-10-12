@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ATM {
 
 
-    public static void run() throws Exception {
+    public static void main(String[] args) throws Exception {
 
             HashMap<String, Double> accounts = new HashMap();
 
@@ -29,6 +29,9 @@ public class ATM {
                         System.out.println("New Account created, your current balance is $100.00");
                     } else if (create.equals("n")) {
                         System.out.println("Thank you, have a good day!");
+                        continue;
+                    } else {
+                        System.out.println("Not a valid option");
                         continue;
                     }
                 }
