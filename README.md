@@ -22,7 +22,7 @@ Create a program that mimics an ATM. From the REPL, it should be possible to sta
       * If the amount is greater than 100, throw an exception
       * If all is well, tell them to please take their money
 
- ### Notes
+### Notes
 
  * Adding and removing bank accounts
  * HashMap = String name, Double balance
