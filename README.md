@@ -2,12 +2,12 @@
 ## TIY Assignment 1.3
 
 ### Description
-#### From sekao
+##### From sekao
 
 Create a program that mimics an ATM. From the REPL, it should be possible to start it up using `ATM.run()`.
 
 ### Requirements
-#### From sekao
+##### From sekao
 
 * Prompt me for my name
   * If I enter nothing, throw an exception
