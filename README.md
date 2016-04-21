@@ -29,7 +29,7 @@ Create a program that mimics an ATM. From the REPL, it should be possible to sta
 
 1. Create a HashMap called accounts:
     * **HashMap<String, Double> accounts = new HashMap();**
-        *Import HashMap class, and creates a new instance of HashMap called accounts
+        * Import HashMap class, and creates a new instance of HashMap called accounts
 2. Check HashMap for username:
     * If not in hashmap, offer to create account
     * Else, find account in HashMap
